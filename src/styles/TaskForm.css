@@ -1,0 +1,25 @@
+.custom-modal .modal-content {
+    background-color: #ffe4e1; /* warna pink muda */
+    border-radius: 8px;
+  }
+  
+  .custom-modal .modal-header,
+  .custom-modal .modal-body,
+  .custom-modal .modal-footer {
+    background-color: #ffd9e1; /* warna pink muda */
+    border: none;
+  }
+  
+  .custom-modal .modal-title {
+    color: #B03052; /* warna teks */
+    font-weight: bold;
+  }
+  
+  .custom-modal .btn-secondary {
+    background-color: #ccc;
+    border-color: #ccc;
+  }
+
+  .modal-body{
+    border-radius: 10px;
+  }

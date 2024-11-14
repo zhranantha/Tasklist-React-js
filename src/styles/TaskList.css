@@ -1,0 +1,127 @@
+.task-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .task-list-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-list-header {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .task-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .task-item {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task-info {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(100px, 1fr) minmax(120px, 1fr) auto;
+    gap: 24px;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .task-details {
+    min-width: 0;
+    padding-left: 15px; /* To account for the ribbon */
+  }
+  
+  .task-name {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  .label {
+    font-size: 11px;
+    color: #747d8c;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+  }
+  
+  .priority-container {
+    justify-self: start;
+    min-width: 0;
+  }
+  
+  .priority-badge {
+    padding: 4px 0;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  .priority-High {
+    color: #ff4757;
+  }
+  
+  .priority-Medium {
+    color: #ffa502;
+  }
+  
+  .priority-Low {
+    color: #2ed573;
+  }
+  
+  .status-badge {
+    background: #f1f2f6;
+    padding: 6px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #747d8c;
+    white-space: nowrap;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: #747d8c;
+    transition: color 0.2s;
+  }
+  
+  .action-button:hover {
+    color: #FFC0CB;
+  }
+  
+  .delete-button:hover {
+    color: #ff4757;
+  }
+
+  .task-list-header h1 {
+    font-family: 'Playfair Display';/* Font dari Google Fonts */
+    font-size: 2.5rem; /* Ukuran font */
+    color: #B03052; /* Warna teks, bisa disesuaikan */
+    font-weight: bold;
+  }
+  
